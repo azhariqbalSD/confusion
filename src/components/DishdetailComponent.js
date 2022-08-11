@@ -49,9 +49,11 @@ import { Card , CardText ,CardTitle ,CardBody ,CardImg } from 'reactstrap';
                 )
             })
             return(
-                <div className="col-12 col-md-5 m-2">
+                <div className='container'>
+                    <div className="col-12 col-md-5 m-2">
                     <h4> Comments </h4>
                     <ul className="list-unstyled">{comment}</ul>
+                </div>
                 </div>
             )
         }
